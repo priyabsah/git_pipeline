@@ -65,7 +65,7 @@ pipeline {
         failure {
             echo "Pipeline failed!"
             emailext(
-                to: "youremail@example.com",
+                to: "psahuaus@example.com",
                 subject: "Pipeline Status: Failure",
                 body: "The Jenkins pipeline has failed. Please check the logs for details.",
                 attachLog: true
